@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+  }
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0)),url('./home.jpg');
+    max-width: 100%;
+    min-height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.logo a{
+    color: black;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size:2em;
+  margin-left:2px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+
+}
+.menu a:before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom:2px solid indianred;
+    transition: 0.4s  ;
+}
+.menu a:hover:before{
+    width: 90%;
+}
+.register a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    background:indianred;
+    padding: 5px;
+    border-radius: 10px;
+ 
+}
+.container-1{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 20px;
+    margin-right:150px;
+    margin-left:150px;
+
+}
+.container-1 a{
+    margin-top: 30px;
+    text-align: center;
+}
+.main{
+    font-size:50px;
+}
+.container-1 .register a{
+    padding: 13px; 
+}
+.container-1 .register{
+    margin: 30px;
+}
+.register a:hover{
+    background: transparent;
+    transition-duration: 0.4s;
+    border: 2px solid indianred;
+
+}
+.service{
+  
+    text-align: center;
+    border: 3px solid indianred;
+    width: 8cm;
+    border-radius: 25px;
+    height: 10cm;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 10px 10px rgb(107, 104, 104);
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.service img{
+    border-radius: 20px;
+    width: 3cm;
+    height:3cm ;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.service h3{
+    margin: 3px;
+}
+.service p{
+    margin: 2px;
+}
+.noOfservices{
+    display: flex;
+    justify-content: space-evenly;
+}
+#services h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+#products{
+    background-image: url(product.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#products h2{
+    font-size: 50px;
+    margin: 10px;
+}
+.subitems img{
+    height:8cm;
+    width: 8cm;
+    border-radius: 10px;
+}
+.subitems p{
+    font-size: 30px;
+    backdrop-filter: blur(20px);
+    padding: 5px;
+    border-radius: inherit;    
+}
+.subitems{
+    border: 3px solid indianred;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.subitems:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: rotate(5deg);
+}
+
+.items1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+   
+}
+.icons {
+    width: 100%;
+text-decoration: none;
+
+padding: 20px;
+/* margin: 20px; */
+margin-top: 0px;
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+.icons i{
+    color: black;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+.icons a{
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+.sections{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.sect{
+    font-size: 1.5em;
+    padding: 25px;
+    color: black;
+}
+.sections a{
+    text-decoration: none;
+}
+.footupper{
+    background-color: rgb(108, 100, 100);
+   padding-bottom: 25px;
+}
+.icons a:hover{
+    background-color: black;
+}
+.icons i:hover{
+    color: white;
+}
+.sections a:hover{
+    color: white;
+}
+.container{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.container p{
+    color: white;
+}
